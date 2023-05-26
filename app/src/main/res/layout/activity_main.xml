@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/condebutton"
+        android:layout_width="212dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="60dp"
+        android:text="Conde"
+        app:layout_constraintBottom_toTopOf="@+id/anahibutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <Button
+        android:id="@+id/anahibutton"
+        android:layout_width="212dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="221dp"
+        android:text="Anahi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/condebutton" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="111dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="174dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Curriculums"
+        app:layout_constraintBottom_toTopOf="@+id/condebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

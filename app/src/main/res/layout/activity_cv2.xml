@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".cv2">
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Anahi Peinado Villalobos"
+        android:textAlignment="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Datos Personales" />
+
+            <TextView
+                android:id="@+id/textViewContactInfo2"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Objetivo" />
+
+            <TextView
+                android:id="@+id/textViewObjective"
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:layout_marginTop="16dp"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Experiencia" />
+
+            <TextView
+                android:id="@+id/textViewExperiencia"
+                android:layout_width="match_parent"
+                android:layout_height="501dp"
+                android:layout_marginTop="16dp"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Preparación Académica" />
+
+            <TextView
+                android:id="@+id/textViewPreparacion"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:layout_marginTop="16dp"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Habilidades" />
+
+            <TextView
+                android:id="@+id/textViewHabilidades"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:layout_marginTop="16dp"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonWebsite2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visita mi github!"
+                android:layout_marginTop="16dp"
+                android:onClick="openWebsite" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
