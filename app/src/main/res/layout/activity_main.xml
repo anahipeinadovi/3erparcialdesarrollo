@@ -14,12 +14,13 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="60dp"
-        android:text="Conde"
+        android:text="Jose Conde"
         app:layout_constraintBottom_toTopOf="@+id/anahibutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        tools:text="Jose Conde 299506" />
 
     <Button
         android:id="@+id/anahibutton"
@@ -33,23 +34,35 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/condebutton" />
+        app:layout_constraintTop_toBottomOf="@+id/condebutton"
+        tools:text="Anahí Peinado 353262" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="111dp"
-        android:layout_height="45dp"
+        android:layout_width="255dp"
+        android:layout_height="57dp"
         android:layout_marginStart="150dp"
         android:layout_marginTop="59dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="174dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Curriculums"
+        android:text="Curriculums APP"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/condebutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.62" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="147dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:text="Pulsa un boton para mostrar un curriculum!" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
