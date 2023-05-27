@@ -36,6 +36,7 @@ La Actividad correspondiente a cada integrante cuenta con un ScrollView para pod
 Para volver al menu principal se pueden usar los control predeterminados para dispositivos android, en el caso de el emulador se puede hacer a traves de la tecla Esc en Windows.
 
 En este repositorio puedes encontrar un video de ejemplo de como funciona la app!
+
     ./videoAPP.mp4
     
     
